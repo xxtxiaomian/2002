@@ -1,30 +1,23 @@
 package com.example.gittest;
 
+import android.os.Bundle;
+import android.widget.ImageView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
+
+    private ImageView iv_home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
-        initData();
-        initLintener();
-    }
-
-    private void initLintener() {
-
-    }
-
-    private void initData() {
 
     }
 
     private void initView() {
-
+        iv_home = (ImageView) findViewById(R.id.iv_home);
     }
 }
