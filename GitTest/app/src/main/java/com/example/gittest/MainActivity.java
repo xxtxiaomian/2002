@@ -13,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
 
         initView();
         initData();
+        initLintener();
+    }
+
+    private void initLintener() {
+
     }
 
     private void initData() {
